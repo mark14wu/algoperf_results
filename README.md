@@ -24,6 +24,8 @@ core number = 12, tune parallel workers from 16 to 8, got 7-8s improvement.
 
 before optimization: cudnn::ops::nchwToNhwcKernel, 2.11s, 15.4%
 
+### 4. leaky_relu
+
 ## wmt
 ### 1. loss_fn(also available in ogbg)
 we reduce loss function time by torch.compile.
